@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destination Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vacation Destination Wish List</h1>
+        <p>Found exciting places to visit on yor next vacation? Use the form below to add them to your 
+            wish list. </p>
+    </header>
+
+    <main>
+        <form action="" id="destination_details_form">
+            <label for="name">Destination Name</label>
+            <input type="text"  id="name" placeholder="Provide a name for the destination" required>
+
+            <label for="location">Destination Location</label>
+            <input type="text"  id="location" placeholder="Where is this destination located?" required>
+
+            <label for="photo">Photo</label>
+            <input type="url"  id="photo" placeholder="Provide a URL for a photo" required>
+
+            <label for="description">Destination Description</label>
+            <textarea id="description" placeholder="Describe the destination"></textarea>
+
+            <button type="submit">Add to List</button>
+        </form>
+
+        <article>
+                <h2 id="title">Enter Destination Details</h2>
+                <div id="destinations_container">
+                    
+                     <div class="card">
+                        <img src="images/elephant.jpg">
+                        <!-- <div class="card-body">
+                            <h3>Destination Name</h3>
+                            <h4>Destination Location</h4>
+                            <p class="card-text">Destination Description</p>
+                            <button>Remove</button>
+                        </div>  -->
+                    </div>
+                </div>
+        </article>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
